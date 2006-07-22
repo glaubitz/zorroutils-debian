@@ -1,0 +1,18 @@
+Source: zorroutils
+Section: admin
+Priority: optional
+Maintainer: Aurélien GÉRÔME <ag@roxor.cx>
+Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 4)
+
+Package: zorroutils
+Architecture: m68k powerpc
+Depends: ${shlibs:Depends}
+Description: Zorro bus utilities for Amigas running 2.1 and later kernels
+ This package includes a program called "lszorro" that translates the
+ /proc/bus/zorro hierarchy into human-readable form; it replaces the
+ functionality from the /proc/zorro file provided under Linux 2.0 and
+ below.
+ .
+ This package is only useful on Amiga computers using AutoConfig
+ (however, it works on systems without the Zorro bus, despite the name).

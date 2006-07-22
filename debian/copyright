@@ -1,0 +1,24 @@
+This package was debianized by Chris Lawrence <lawrencc@debian.org> on
+Fri, 15 Jan 1999 03:28:14 -0600.
+
+It was originally downloaded from http://members.chello.be/cr26864/Download/
+
+Newer versions can be found in the Linux/m68k CVS repository, e.g.:
+
+cvs -d :pserver:anon@cvs.linux-m68k.org:/CVS checkout zorroutils
+
+Upstream Author: Geert Uytterhoeven <geert@linux-m68k.org>
+
+Copyright:
+
+Copyright (C) 1998--2000 Geert Uytterhoeven <geert@linux-m68k.org>
+
+This package is heavily based on the Linux PCI Utilities, which are
+
+Copyright (C) 1998--2000 Martin Mares <mj@suse.cz>
+
+All files in this package can be freely distributed and used according
+to the terms of the GNU General Public License, either version 2 or
+(at your opinion) any newer version. This is the same distribution
+policy as for the Linux kernel itself -- see
+/usr/share/common-licenses/GPL for details.
