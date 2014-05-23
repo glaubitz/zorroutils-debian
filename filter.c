@@ -1,5 +1,5 @@
 /*
- *	$Id: filter.c,v 1.2 2000/08/12 12:01:19 geert Exp $
+ *	$Id: filter.c,v 1.2 2000-08-12 12:01:19 geert Exp $
  *
  *	Linux Zorro Utilities -- Device Filtering
  *

@@ -1,5 +1,5 @@
 /*
- *	$Id: zorroutils.h,v 1.5 2000/09/28 18:46:14 geert Exp $
+ *	$Id: zorroutils.h,v 1.5 2000-09-28 18:46:14 geert Exp $
  *
  *	Linux Zorro Utilities -- Declarations
  *
@@ -10,10 +10,10 @@
 
 #include <linux/types.h>
 
-#define ZORROUTILS_VERSION "0.04"
+#define ZORROUTILS_VERSION "0.05"
 
 #define PROC_BUS_ZORRO "/proc/bus/zorro"
-#define ZORRO_ID_DB "/usr/share/zorro.ids"
+#define ZORRO_ID_DB "/usr/share/misc/zorro.ids"
 
 /* Types */
 

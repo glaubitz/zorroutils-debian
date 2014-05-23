@@ -1,5 +1,5 @@
 /*
- *	$Id: lszorro.c,v 1.4 2000/08/12 12:01:19 geert Exp $
+ *	$Id: lszorro.c,v 1.4 2000-08-12 12:01:19 geert Exp $
  *
  *	Linux Zorro Utilities -- List All Zorro Devices
  *
@@ -376,7 +376,7 @@ main(int argc, char **argv)
 	break;
       default:
       bad:
-	fprintf(stderr, help_msg);
+	fprintf(stderr, "%s", help_msg);
 	return 1;
       }
   if (optind < argc)

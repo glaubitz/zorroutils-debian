@@ -1,4 +1,4 @@
-.TH lszorro 8 "28 September 2000" "zorroutils-0.04" "Linux Zorro Utilities"
+.TH lszorro 8 "23 May 2014" "zorroutils-0.05" "Linux Zorro Utilities"
 .IX lszorro
 .SH NAME
 lszorro \- list all Zorro devices
@@ -54,7 +54,7 @@ boards only.
 Use
 .B
 <file>
-as Zorro ID database instead of /usr/share/zorro.ids.
+as Zorro ID database instead of /usr/share/misc/zorro.ids.
 .TP
 .B -p <dir>
 Use
@@ -67,7 +67,7 @@ supported) for easy parsing by scripts.
 
 .SH FILES
 .TP
-.B /usr/share/zorro.ids
+.B /usr/share/misc/zorro.ids
 A list of all known Zorro IDs (manufacturers, products and extended product
 codes).
 .TP
@@ -79,4 +79,5 @@ devices
 file containing a list of all Zorro devices.
 
 .SH AUTHOR
-The Linux Zorro Utilities are maintained by Geert Uytterhoeven <zorro@linux-m68k.org>.
+The Linux Zorro Utilities were originally written by Geert Uytterhoeven <zorro@linux-m68k.org>
+and are now maintained by John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>.

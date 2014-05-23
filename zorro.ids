@@ -1,476 +1,717 @@
-#
-#	List of Zorro IDs
-#
-#	Maintained by Geert Uytterhoeven <zorro@linux-m68k.org>
-#	If you have any new entries, please send them to the maintainer.
-#
-#	$Id: zorro.ids,v 1.19 2002/10/14 13:08:58 geert Exp $
-#
-
-# Manufacturers and Products. Please keep sorted.
-
-# Syntax:
-# manufacturer  manufacturer_name
-#	product  product_name				<-- single tab
-
-00d3  Pacific Peripherals
-	0000  SE 2000 A500 [HD Controller]
-	0a00  [SCSI Host Adapter]
-00dd  Kupke
-	0000  Golem RAM Box 2MB [RAM Expansion]
-0100  MacroSystems USA
-# The Stormbringer is actually made by Memphis
-	0000  Stormbringer [Accelerator]
-	1300  Warp Engine [Accelerator, SCSI Host Adapter and RAM Expansion]
-0200  3-State
-	0200  Megamix 2000 [RAM Expansion]
-0201  Commodore Braunschweig
-	0100  A2088 XT/A2286 AT [ISA Bus Bridge]
-	0200  A2286 AT [ISA Bus Bridge]
-	5400  A4091 [SCSI Host Adapter]
-	6700  A2386-SX [ISA Bus Bridge]
-0202  Commodore West Chester
-	0100  A2090/A2090A [SCSI Host Adapter]
-	0200  A590/A2091 [SCSI Host Adapter]
-	0300  A590/A2091 [SCSI Host Adapter]
-	0400  A2090B 2090 Autoboot [SCSI Host Adapter]
-	0900  A2060 [ArcNet Card]
-	0a00  A590/A2052/A2058/A2091 [RAM Expansion]
-	2000  A560 [RAM Expansion]
-	4500  A2232 Prototype [Multi I/O]
-	4600  A2232 [Multi I/O]
-	5000  A2620 68020 [Accelerator and RAM Expansion]
-	5100  A2630 68030 [Accelerator and RAM Expansion]
-	5400  A4091 [SCSI Host Adapter]
-	5a00  A2065 [Ethernet Card]
-	6000  Romulator Card
-	6100  A3000 Test Fixture [Miscellaneous Expansion Card]
-	6700  A2386-SX [ISA Bus Bridge]
-	7000  A2065 [Ethernet Card]
-0203  Commodore West Chester
-	0300  A2090/A2090A Combitec/MacroSystem [SCSI Host Adapter]
-02f4  Progressive Peripherals & Systems
-	0200  EXP8000 [RAM Expansion]
-	6900  A2000 68040 [Accelerator]
-	9600  68040 [Accelerator]
+0001  Micronik
+        aa00  Infinitiv RAM
+00d3  Pacific Peripherals/Profex
+        0000  HD-Controller
+        0a00  HD-Controller
+00dd  Kupke (Profex)
+        0000  Golem Box RAM Expansion
+        2a00  SE 2000 RAM
+0100  Memphis
+        0000  Stormbringer Turbo
+0200  3-State Computertechnik
+        0200  MegaMix 2000 RAM
+0201  Commodore (Braunschweig)
+        0100  A 2088/2286 BridgeBoard
+        0200  A 2286 BridgeBoard
+        5400  A 4091 SCSI
+        6700  A 2386SX BridgeBoard
+0202  Commodore (West Chester)
+        0100  A 2090/2090a SCSI
+        0200  A 590/2091 SCSI
+        0300  A 590/2091 SCSI
+        0400  A 2090B 2090 Autoboot Card
+        0900  A 2060 Arcnet
+        0a00  A 2052/2058 | 590/2091 RAM
+        2000  A 560 Arcnet
+        4500  A 2232 Multi Serial Prototype
+        4600  A 2232 Multi Serial
+        5000  A 2620 020 Turbo
+        5100  A 2630 030 Turbo
+        5400  A 4091 SCSI
+        5a00  A 2065 Ethernet
+        6000  Romulator Card
+        6100  A 3000 Test fixture
+        6700  A 2386SX BridgeBoard
+        6a00  CD32 SCSI Controller
+        7000  A 2065 Ethernet
+0203  Commodore (West Chester)
+        0300  A 2090/2090a SCSI
+02f4  Progressive Peripherials & Software
+        0200  DoubleTalk
 02ff  Kolff Computer Supplies
-	0000  KCS Power PC [ISA Bus Bridge]
-03ec  Cardco Ltd.
-	0400  Kronos 2000 [SCSI Host Adapter]
-	0c00  A1000 [SCSI Host Adapter]
-	0e00  Escort [SCSI Host Adapter]
-	f500  A2410 HiRes [Graphics Card]
+        0000  KCS Power PC board
+03ec  Kronos/C Ltd
+        0400  Kronos 2000 SCSI Controller
+        0c00  CLtd A1000 SCSI
+        0e00  Escord SCSI
+        f500  A 2410 Graphics Board
 03ed  A-Squared
-	0100  Live! 2000 [Video Card]
+        0100  LIVE! 2000 Digitizer
 03ee  Comspec Communications
-	0100  AX2000 [RAM Expansion]
+        0100  AX2000 RAM
 03f1  Anakin Research
-	0100  Easyl Drawing Tablet Interface
-03f2  Microbotics
-	0000  StarBoard II [RAM Expansion]
-	0200  StarDrive [SCSI Host Adapter]
-	0300  8-Up (Rev A) [RAM Expansion]
-	0400  8-Up (Rev Z) [RAM Expansion]
-	2000  Delta [RAM Expansion]
-	4000  8-Star [RAM Expansion]
-	4100  8-Star [Miscellaneous Expansion Card]
-	4400  VXL RAM*32 [RAM Expansion]
-	4500  VXL-30 [Accelerator]
-	6000  Delta [Miscellaneous Expansion Card]
-	8100  MBX 1200/1200z [RAM Expansion]
-	9600  Hardframe 2000 [SCSI Host Adapter]
-	9e00  Hardframe 2000 [SCSI Host Adapter]
-	c100  MBX 1200/1200z [Miscellaneous Expansion Card]
-03f4  Access Associates Alegra
-03f6  Expansion Technologies/Pacific Cypress
+        0100  Easyl Drawing Tablet
+03f2  MicroBotics
+        0000  StarBoard 2
+        0200  StarDrive Controller
+        0300  8UP! PIC version a
+        0400  8UP! PIC version z
+        1200  Modem 19
+        2000  Delta Card Memory
+        4000  8-Star! Memory
+        4100  8-Star! Expansion
+        4400  VXL RAM
+        4500  VXL Turbo
+        6000  Delta Card Expansion
+        8100  MBX 1200
+        8800  VXL Turbo
+        9600  HardFrame 2000 SCSI
+        9e00  HardFrame 2000 SCSI
+        c100  MBX 1200
+03f4  Access Associates (Alegra)
+        0000  RAM Board
+        0100  RAM Board
 03ff  ASDG
-	0100  [RAM Expansion]
-	0200  [RAM Expansion]
-	fe00  EB-920 Lan Rover [Ethernet Card]
-	ff00  GPIB/Dual IEEE-488/Twin-X [Multi I/O]
-0404  Ronin/Imtronics
-	3900  Hurricane 2800 [Accelerator and RAM Expansion]
-	5700  Hurricane 2800 [Accelerator and RAM Expansion]
-0406  Commodore/University of Lowell
-	0000  A2410 HiRes [Graphics Card]
-041d  Ameristar
-	0100  A2065 [Ethernet Card]
-	0900  A560 [ArcNet Card]
-	0a00  A4066 [Ethernet Card]
-	2000  1600-GX [Graphics Card]
+        fe00  LanRover
+        ff00  IEEE-488 or Twin X Dual Serial
+0404  Imtronics/Memphis
+        3900  Hurricane 2800 Turbo
+        5700  Hurricane 2800 Turbo
+0406  Commodore (Lowell University)
+        0000  A 2410 Graphics Board
+041d  Ameristar Technologies
+        0100  A 2065 Ethernet Board
+        0900  A 560/2060 Arcnet Board
+        0a00  A 4066 Ethernet Board
+        1400  1600-GX Graphics Card
 0420  Supra
-	0100  SupraDrive 4x4 [SCSI Host Adapter]
-	0200  1000 [RAM Expansion]
-	0300  2000 DMA [SCSI Host Adapter]
-	0500  500 [SCSI Host Adapter and RAM Expansion]
-	0800  500 [SCSI Host Adapter]
-	0900  500XP/2000 [RAM Expansion]
-	0a00  500RX/2000 [RAM Expansion]
-	0b00  2400zi [Modem]
-	0c00  500XP/SupraDrive WordSync [SCSI Host Adapter]
-	0d00  SupraDrive WordSync II [SCSI Host Adapter]
-	1000  2400zi+ [Modem]
-0422  Computer Systems Assosiates
-	1100  Magnum 40 [Accelerator and SCSI Host Adapter]
-	1500  12 Gauge [SCSI Host Adapter]
-0439  Marc Michael Groth
-0502  M-Tech
-	0300  AT500 [RAM Expansion]
+        0100  4x4 SCSI | RAM 2000
+        0200  A1000 RAM-Expansion
+        0300  2000 DMA HD
+        0500  500 HD/RAM Interface
+        0800  A500 Autoboot HD Interface
+        0900  500RX/2000
+        0a00  SupraRam
+        0b00  2400zi Modem
+        0c00  Wordsync SCSI
+        0d00  Bytesync SCSI
+        1000  2400+ Modem
+0422  Computer Systems Associates
+        1100  Magnum 040 Turbo
+        1500  12-Gauge Accelerator
+0502  M-TEC Hardware Design
+        0300  AT500 OnBoard RAM
+0539  T.Stenzel (DaFR34K)
+        0100  PyRamIDE Ram and IDE Expansion
+0628  Boris Krizma
+        0900  Furia 32-Bit
 06e1  Great Valley Products
-	0800  Impact Series I [SCSI Host Adapter and RAM Expansion]
-	2000  Impact Vision 24 [Graphics Card]
-07da  ByteBox
-	0000  A500
-07db  Hacker Test Board
-07dc  DKB/Power Computing
-	0900  SecureKey
-	0e00  DKM 3128 [RAM Expansion]
-	0f00  Rapid Fire [SCSI Host Adapter]
-	1000  DKM 1202 [FPU and RAM Expansion]
-	1200  Cobra/Viper II 68EC030 [Accelerator]
-	1700  WildFire 060 [Accelerator]
-	ff00  WildFire 060 [Accelerator]
+        0200  HD-Controller
+        0300  Impact HD
+        0800  A 3001 Board
+        0900  SeriesII RAM
+        0a00  SeriesII RAM
+        0b00  SeriesII/HC8+ SCSI | I/O Extender
+        0d00  A 3001 IDE
+        2000  ImpactVision24
+070b  UAE Amiga Emulator
+        0100  UAE - ZII Ram Expansion
+        0200  UAE - Magic Device Emulation
+        0300  UAE - Z3 Ram Expansion
+        5100  UAE - ZII Ram Expansion
+        5200  UAE - Magic Device Emulation
+        5300  UAE - Z3 Ram Expansion
+        6000  UAE - RTG Graphics Expansion
+07db  Reserved
+        0000  HD-Controller
+        0100  UAE - ZII Ram Expansion
+        0200  Resource Management - QuickNet 2000
+        0300  UAE - Z3 Ram Expansion
+        5100  UAE - ZII Ram Expansion
+        5200  UAE - Magic Device Emulation
+        5300  UAE - Z3 Ram Expansion
+        6000  UAE - RTG Graphics Expansion
+07dc  DKB
+        0100  BattDisk RAMDisk Board
+        0900  SecureKey
+        0e00  3128 RAM Board
+        0f00  RapidFire SCSI-II
+        1000  1202 RAM Board
+        1200  Cobra 1200 Turbo
+        1700  WildFire 060
+        ff00  WildFire 060 Expansion
 07e1  Great Valley Products
-	0100  Impact Series I (4K) [SCSI Host Adapter]
-	0200  Impact Series I (16K/2) [SCSI Host Adapter]
-	0300  Impact Series I (16K/2) [SCSI Host Adapter]
-	0800  Impact 3001 [IDE Interface]
-	0900  Impact 3001 [RAM Expansion]
-	0a00  Impact Series II [RAM Expansion]
-	0b20  GForce 040 [Accelerator]
-	0b30  GForce 040 [Accelerator and SCSI Host Adapter]
-	0b40  A1291 [SCSI Host Adapter]
-	0b60  Combo 030 R4 [Accelerator]
-	0b70  Combo 030 R4 [Accelerator and SCSI Host Adapter]
-	0b78  Phone Pak
-	0b98  IO-Extender [Multi I/O]
-	0ba0  GForce 030 [Accelerator]
-	0bb0  GForce 030 [Accelerator and SCSI Host Adapter]
-	0bc0  A530 [Accelerator]
-	0bd0  A530 [Accelerator and SCSI Host Adapter]
-	0be0  Combo 030 R3 [Accelerator]
-	0bf0  Combo 030 R3 [Accelerator and SCSI Host Adapter]
-	0bf8  Series-II [SCSI Host Adapter]
-	0d00  Impact 3001 [IDE Interface]
-	1600  GForce 040/060 [Accelerator and SCSI Host Adapter]
-	2000  Impact Vision 24 [Graphics Card]
-	4400  Rembrandt [Graphics Card]
-	ff00  GForce 040 [Accelerator]
+        0100  A 2000 RAM Board
+        0200  HD-Controller
+        0300  Impact HD
+        0800  A 3001 Board
+        0900  SeriesII RAM
+        0a00  SeriesII RAM
+        0b00  SeriesII/HC8+ SCSI | I/O Extender
+        0d00  A 3001 IDE
+        1600  A 40x0 Turbo
+        2000  ImpactVision24
+        fe00  A 1230
+        ff00  GForce I/O Extender
 07e5  California Access/Synergy
-	0100  Malibu [SCSI Host Adapter]
+        0100  Malibu SCSI
 07e6  Xetec
-	0100  FastCard [SCSI Host Adapter]
-	0200  FastCard [RAM Expansion]
-	0300  FastCard Plus [SCSI Host Adapter]
-07ea  Progressive Peripherals & Systems
-	0000  Mercury [Accelerator]
-	0100  A3000 68040 [Accelerator]
-	6900  A2000 68040 [Accelerator]
-	9600  Zeus [Accelerator, SCSI Host Adapter and RAM Expansion]
-	bb00  A500 68040 [Accelerator]
-# The AteoBus and Pixel64 are actually made by Ateo Concepts
-	fc00  AteoBus [Expansion Bus Bridge]
-	fe00  Pixel64 [Graphics Card]
-	ff00  Pixel64 RAM [Graphics Card]
-07ec  Xebec
+        0100  FastCard / FastTrak SCSI
+        0200  FastCard RAM
+        0300  FastCard+ SCSI
+07ea  Progressive Peripherials & Software
+        0000  Mercury Turbo
+        0100  A3040 Turbo
+        0200  RAM Expansion
+        4400  Rambrandt Graphics Board
+        6900  Progressive 2000/040 Accelerator + 32-bit RAM
+        7800  ProRAM-3000
+        9600  Zeus Accelerator or Memory
+        fc00  isa io space on the AteoBus
+        fd00  isa memory space on the AteoBus
+        fe00  fast io space on the AteoBus / Pixel64 io
+        ff00  fast memory space on the AteoBus/Pixel64 memory
+07ee  Palomax
+        0000  MAX-125 Autoboot Interface
 07f2  Spirit Technology
-	0100  Insider IN1000 [RAM Expansion]
-	0200  Insider IN500 [RAM Expansion]
-	0300  SIN500 [RAM Expansion]
-	0400  HDA 506 [HD Controller]
-	0500  AX-S [Miscellaneous Expansion Card]
-	0600  OctaByte [RAM Expansion]
-	0800  Inmate [SCSI Host Adapter and RAM Expansion]
-07f3  Spirit Technology
-07fe  BSC/Alfadata
-	0300  ALF 3 [SCSI Host Adapter]
-0801  BSC/Alfadata
-	0100  ALF 2 [SCSI Host Adapter]
-	0200  ALF 2 [SCSI Host Adapter]
-	0300  ALF 3 [SCSI Host Adapter]
-	0400  Oktagon 500 [SCSI Host Adapter]
-	0600  Tandem AT-2008/508 [IDE Interface]
-	0800  Oktagon 2008 [RAM Expansion]
-	1000  MultiFace I [Multi I/O]
-	2000  FrameMaster II [Graphics Card]
-	4000  ISDN MasterCard [ISDN Interface]
-0802  Cardco Ltd.
-	0400  Kronos 2000 [SCSI Host Adapter]
-	0c00  A1000 [SCSI Host Adapter]
-0804  Jochheim
-	0100  [RAM Expansion]
-	2000  [RAM Expansion]
+        0100  Insider IN 1000 RAM
+        0200  Insider IN 500 RAM
+        0300  SIN 500 RAM
+        0400  HDA-506 MFM Controller
+        0500  AX-S IBM-Hardware I/O
+        0600  OctaByte Z-II Memory
+        0800  InMate Multiboard SCSI/FPU/RAM
+07fe  BSC
+        0300  ALF 3 SCSI II
+0801  BSC
+        0100  ALF 2 MFM Controller
+        0200  ALF 2 SCSI
+        0300  ALF 3 SCSI II
+        0500  Oktagon 2008
+        0600  Tandem
+        0800  Memory Master
+        1000  Multiface
+        2000  Frame Buffer
+        4000  ISDN Master
+        4100  ISDN Master
+0802  Kronos/C Ltd
+        0400  Kronos 2000 SCSI Controller
+        0c00  CLtd A1000 SCSI
+0804  Jochheim Computer Tuning
+        0100  2/8MB Board
 0807  Checkpoint Technologies
-	0000  Serial Solution [Multi Serial]
+        0000  Dual Serial Board
 0810  Edotronik
-	0100  IEEE-488 Interface Card
-	0200  CBM-8032 Card
-	0300  [Multi Serial]
-	0400  24Bit Realtime Video Digitizer
-	0500  32Bit Parallel I/O Interface
-	0600  PIC Prototyping Card
-	0700  16 Channel ADC Interface
-	0800  VME-Bus Controller
-	0900  DSP96000 Realtime Data Acquisition DSP Card
+        0100  IEEE-488 Controller
+        0200  8032 development adapter
+        0300  Multi-Serial Card
+        0400  24 Bit Realtime Digitizer
+        0500  32 Bit Parallel I/O
+        0600  PIC Prototyping Board
+        0700  16 Channel ADC Interface
+        0800  VME-Bus controller
+        0900  DSP96000 Realtime Data Acquisition
+0811  California Access/Synergy
+        0100  Malibu SCSI
 0813  NES Inc.
-	0000  [RAM Expansion]
+        0000  RAM Expansion
 0817  ICD
-	0100  Advantage 2000 [SCSI Host Adapter]
-	0300  Advantage [IDE Interface]
-	0400  Advantage 2080 [RAM Expansion]
+        0100  Advantage SCSI
+        0300  Advantage IDE
+        0400  AD 2080 RAM
+        2300  Trifecta HD Controller
 0819  Kupke
-	0100  Omti [HD Controller]
-	0200  Golem SCSI-II [SCSI Host Adapter]
-	0300  Golem Box
-	0400  030/882 [Accelerator]
-	0500  Golem [SCSI Host Adapter]
+        0100  OMTI HD Controller
+        0200  Golem SCSI II
+        0300  Golem Box RAM Expansion
+        0400  030 Turbo
+        0500  Golem SCSI/AT Combi
+081c  Alfa Data
+        1800  AlfaRAM
 081d  Great Valley Products
-	0900  A2000-RAM8/2 [Miscellaneous Expansion Card]
-	0a00  Impact Series II [RAM Expansion]
-081e  Interworks Network
+        0900  A 2000 RAM Board
+        0a00  SeriesII RAM
 0820  Hardital Synthesis
-	0100  Super Big Bang [Accelerator, SCSI Host Adapter and RAM Expansion]
-	1400  TQM 68030+68882 [Accelerator]
+        1400  TQM 030/882 Turbo
 0828  Applied Engineering
-	1000  DL2000 [Modem]
-	e000  RAM Works [RAM Expansion]
-082c  BSC/Alfadata
-	0400  Oktagon 500 [SCSI Host Adapter]
-	0500  Oktagon 2008 [SCSI Host Adapter]
-	0600  Tandem AT-2008/508 [IDE Interface]
-	0700  Alpha 1200 [RAM Expansion]
-	0800  Oktagon 2008 [RAM Expansion]
-	1000  MultiFace I [Multi I/O]
-	1100  MultiFace II [Multi I/O]
-	1200  MultiFace III [Multi I/O]
-	2000  FrameMaster II [Graphics Card]
-	2100  Graffiti RAM [Graphics Card]
-	2200  Graffiti [Graphics Card]
-	4000  ISDN MasterCard [ISDN Interface]
-	4100  ISDN MasterCard II [ISDN Interface]
+        1000  Datalink 2000
+        e000  RAM Works 16-bit Memory
+082c  BSC
+        0200  ALF 2 SCSI
+        0300  ALF 3 SCSI II
+        0400  Oktagon 508
+        0500  Oktagon 2008
+        0600  AT-Bus 508/2008 IDE Controller
+        0700  AlphaRAM1200
+        0800  Memory Master
+        1000  Multiface
+        1100  Multiface II
+        1200  Multiface III
+        1800  Tandem
+        2000  Frame Buffer
+        2100  Graffiti RAM
+        2200  Graffiti
+        4000  ISDN Master
+        4100  ISDN Master II
+0830  Quadlite Computers Ltd.
+        0d00  NetMaster Ethernet Card
+0833  Village Tronic
+        8900  Ariadne Ethernet Card
 0835  Phoenix
-	2100  ST506 [HD Controller]
-	2200  [SCSI Host Adapter]
-	be00  [RAM Expansion]
-0836  Advanced Storage Systems
-	0100  Nexus [SCSI Host Adapter]
-	0800  Nexus [RAM Expansion]
-0838  Impulse
-	0000  FireCracker 24 (NTSC) [Graphics Card]
-	0100  FireCracker 24 (PAL) [Graphics Card]
-0840  IVS
-	0200  GrandSlam PIC 2 [RAM Expansion]
-	0400  GrandSlam PIC 1 [RAM Expansion]
-	1000  OverDrive [HD Controller]
-	3000  TrumpCard Classic [SCSI Host Adapter]
-	3400  TrumpCard Pro/GrandSlam [SCSI Host Adapter]
-	4000  Meta-4 [RAM Expansion]
-	bf00  Wavetools [Audio Card]
-	f300  Vector [SCSI Host Adapter]
-	f400  Vector [SCSI Host Adapter]
+        2100  ST 506 Autoboot HD
+        2200  SCSI Autoboot HD
+        4000  DMX Tx-Mitter
+        be00  RAM Expansion
+0836  Advanced Systems & Software
+        0100  Nexus SCSI
+        0800  Nexus RAM
+0840  IVS (Pacific Peripherals)
+        0200  GrandSlam Memory
+        0400  GrandSlam Memory
+        1000  OverDrive SCSI
+        3000  TrumpCard Classic SCSI
+        3400  TrumpCard Pro SCSI
+        4000  Meta-4 RAM Expansion
+        bf00  Wavetools Sound Board
+        f200  Vector 030 SCSI
+        f300  Vector 030 RAM
+        f400  Vector 030 RAM
 0841  Vector
-	e300  Connection [Multi I/O]
-0845  XPert ProDev
-	0100  Visiona RAM [Graphics Card]
-	0200  Visiona [Graphics Card]
-	0300  Merlin RAM [Graphics Card]
-	0400  Merlin [Graphics Card]
-	c900  Merlin [Graphics Card]
+        e300  Connection Serial Board
+0842  Pacific Digital
+        0200  Symposium
+0844  Pacific Digital
+        0200  PC-Access
+0845  ProDev/XPert
+        0100  Visiona Memory
+        0200  Visiona Board
+        0300  Merlin Memory
+        0400  Merlin Board
+        c900  Merlin Board
 0849  Hydra Systems
-	0100  Amiganet [Ethernet Card]
+        0100  Ethernet Card
+084e  VOB Computersysteme GmbH
+        0100  AccessX HD-Controller
 084f  Sunrize Industries
-	0100  AD1012 [Audio Card]
-	0200  AD516 [Audio Card]
-	0300  DD512 [Audio Card]
-0850  Triceratops
-	0100  [Multi I/O]
-0851  Applied Magic Inc.
-	0100  DMI Resolver [Graphics Card]
-	0200  Vivid 24 [Graphics Card]
-	0600  Digital Broadcaster [Video Card]
-085e  GFX-Base
-	0000  GDA-1 VRAM [Graphics Card]
-	0100  GDA-1 [Graphics Card]
+        0100  AD1012 Sampling Board
+        0200  AD516 Sampling Board
+        0300  DD512 Digital Interface Prototype
+0850  NoName
+        0100  Triceratops Multi I/O
+0851  Digital Micronics Inc.
+        0200  Vivid-24 Graphics
+        0600  Digital Broadcaster 32
+        0900  Digital Broadcaster ELITE
+085e  GfxBase
+        0000  GDA-1 Memory
+        0100  GDA-1 Board
 0860  RocTec
-	0100  RH 800C [HD Controller]
-	0200  RH 800C [RAM Expansion]
-0861  Kato
-# The Rainbow II and III are actually made by Ingenieurbüro Helfrich
-	2000  Rainbow II [Graphics Card]
-	2100  Rainbow III [Graphics Card]
-	8000  Melody MPEG [Audio Card]
-0862  Atlantis
-0864  Protar
-0865  ACS
+        0100  RH 800C HD
+        0200  RH 800C RAM
+0861  Omega Datentechnik
+        2100  Rainbow III
+        8000  Melody 16bit-MPEG-Audio
 0866  Software Results Enterprises
-	0100  Golden Gate 2 Bus+ [ISA Bus Bridge]
-086a  Unknown
-	0100  Horizon [Graphics Card]
-	0200  Blackbox [Graphics Card]
-	0300  Voyager [Graphics Card]
-086d  Masoboshi
-	0300  MasterCard SC201 [RAM Expansion]
-	0400  MasterCard MC702 [SCSI Host Adapter and IDE Interface]
-	0700  MVD 819
-086f  Mainhattan-Data/A-Team
-	0100  [IDE Interface]
+        0100  Golden Gate 2+ - Z-II/ISA Bridge
+086a  DJW Micro Systems
+        0100  Horizon Graphics
+        0200  BlackBox Graphics
+        0300  Voyager Graphics
+086d  Masoboshi (DCE)
+        0000  Viper 520 / SX 32
+        0300  MasterCard RAM
+        0400  MasterCard
+        0700  MVD 819
+0871  Blue Ribbon Soundworks
+        0200  One Stop Music Shop
+0872  XPert
+        0100  Domino Memory
+        0200  Domino Board
+0873  DelaComp
+        0100  RAM Expansion
 0877  Village Tronic
-	0100  Domino RAM [Graphics Card]
-	0200  Domino [Graphics Card]
-	0300  Domino 16M Prototype [Graphics Card]
-	0b00  Picasso II/II+ RAM [Graphics Card]
-	0c00  Picasso II/II+ [Graphics Card]
-	0d00  Picasso II/II+ (Segmented Mode) [Graphics Card]
-	1500  Picasso IV Z2 RAM [Graphics Card]
-	1600  Picasso IV Z2 RAM [Graphics Card]
-	1700  Picasso IV Z2 [Graphics Card]
-	1800  Picasso IV Z3 [Graphics Card]
-	c900  Ariadne [Ethernet Card and Parallel Ports]
-	ca00  Ariadne II [Ethernet Card]
+        0100  Domino Memory
+        0200  Domino Board
+        0b00  Picasso II Memory
+        0c00  Picasso II
+        0d00  Picasso II
+        1000  GBAPII++ Memory
+        1500  Picasso IV Memory
+        1600  Picasso IV Memory
+        1700  Picasso IV I/O
+        1800  Picasso IV
+        c900  Ariadne Ethernet Card
+        ca00  Ariadne II Ethernet Card
+        f000  Picasso II+ Memory
 087b  Utilities Unlimited
-	1500  Emplant Deluxe [Macintosh Emulator]
-	2000  Emplant Deluxe [Macintosh Emulator]
-0880  Amitrix
-	0100  [Multi I/O]
-	0200  CD-RAM [RAM Expansion]
-0885  ArMax
-	0000  OmniBus [Graphics Card]
-088d  ZEUS Electronic Development
-	0300  [ISDN Interface]
-	0400  Spider [Video Card]
+        1500  Emplant Deluxe
+        2000  Emplant Board
+0880  AmiTrix
+        0100  Multi I/O Board
+        0200  CD-RAM - RAM Board for CDTV
+0885  ArMAX
+        0000  oMniBus
+088d  ZEUS Electronic
+        0100  ConneXion Ethernet Card
 088f  NewTek
-	0000  VideoToaster [Video Card]
-0890  M-Tech Germany
-	0100  AT500 [IDE Interface]
-	0300  68030 [Accelerator]
-	0600  68020i [Accelerator]
-	2000  A1200 T68030 RTC [Accelerator]
-	2100  Viper Mk V/E-Matrix 530 [Accelerator and RAM Expansion]
-	2200  8MB [RAM Expansion]
-	2400  Viper Mk V/E-Matrix 530 [SCSI Host Adapter and IDE Interface]
+        0000  VideoToaster
+0890  M-TEC Hardware Design
+        0300  68030 Turbo
+        0500  A1204 RAM-Erweiterung / FPU
+        0600  68020i Turbo
+        2000  Viper 1230
+        2100  Viper 030
+        2200  RAM Expansion
+        2400  Viper 030 SCSI
 0891  Great Valley Products
-	0100  EGS 28/24 Spectrum RAM [Graphics Card]
-	0200  EGS 28/24 Spectrum [Graphics Card]
-0892  Apollo
-	0100  A1200 [FPU and RAM Expansion]
-0893  Ingenieurbüro Helfrich
-	0500  Piccolo RAM [Graphics Card]
-	0600  Piccolo [Graphics Card]
-	0700  PeggyPlus MPEG [Video Card]
-	0800  VideoCruncher [Video Card]
-	0a00  Piccolo SD64 RAM [Graphics Card]
-	0b00  Piccolo SD64 [Graphics Card]
-089b  MacroSystems USA
-	1300  Warp Engine 40xx [Accelerator, SCSI Host Adapter and RAM Expansion]
-089e  ElBox Computer
-	0600  1200/4 [RAM Expansion]
-	0800  FastATA 1200 [IDE Interface]
-	1200  FastATA 1200 [IDE Interface]
-	1300  FastATA 1200 [IDE Interface]
-	1800  FastATA 1200 [IDE Interface]
-	1900  FastATA 4000 [IDE Interface]
-	1d00  FastATA 4000 [IDE Interface]
-	1e00  FastATA ZIV [IDE Interface]
-0a00  Harms Professional
-	1000  030 Plus [Accelerator]
-	d000  3500 Professional [Accelerator and RAM Expansion]
+        0100  Spectrum Memory
+        0200  Spectrum
+0892  Amitek
+        0100  Hawk Ram Board
+0893  IB Helfrich
+        0500  Piccolo Memory
+        0600  Piccolo RegisterIO
+        0700  PeggyPLUS
+        0a00  PiccoloSD-64 Memory
+        0b00  PiccoloSD-64
+        2100  Rainbow III RTG
+089a  Silicon Studio Ltd
+        0000  20bit analogue 4 channel Board
+        0100  Digital Multitrack Board
+089b  MacroSystems (USA)
+        1300  WarpEngine 30x0/40x0
+089e  ELBOX-Computer
+        0100  500/2MB memory expansion
+        0200  500/0.5MB memory expansion
+        0300  CDTV/2MB memory expansion
+        0400  CDTV/8MB memory expansion
+        0500  600/1MB memory expansion
+        0600  1200/4MB memory expansion
+        0700  1200/0-8 memory expansion
+        0800  FastATA 1200 MK-I EIDE controller
+        0900  1230
+        0a00  PC Key 1200 keyboard interface
+        0b00  E/BOX 1200
+        0c00  PC Key 600 keyboard interface
+        0d00  Allegro CDFS
+        0e00  1200 E/BOX
+        0f00  ScanDoubler /w FlickerFixer option
+        1000  FastATA 1200 Lite (16-bit version) EIDE controller
+        1100  Buffered Interface 4 x EIDE'99
+        1200  FastATA 1200 EIDE controller
+        1300  FastATA 1200 MKII GOLD EIDE controller
+        1400  E/BOX 4000 + Zorro III/ISA busboard
+        1800  FastATA 1200 MK-II EIDE controller
+        1900  FastATA 4000 MK-I EIDE controller
+        1a00  ZORRO IV busboard
+        1b00  Hyperport I/O interface
+        1c00  MROOCHECK PC serial mouse interface
+        1d00  FastATA 4000 MK-II/MK-III EIDE controller
+        1e00  FastATA ZORRO IV EIDE controller
+        1f00  MEDIATOR ZORRO IV PCI busboard
+        2000  MEDIATOR 1200 PCI busboard
+        2200  ELBOX 4000 Zorro III/PCI busboard
+        2300  MIRAGE 4000 with Mirage Zorro III/PCI busboard
+        2400  ELBOX 3000 Zorro III/PCI busboard
+        2500  ELBOX A3/4000T PCI busboard
+        2600  SPIDER USB 2.0 Hi-Speed card
+        2700  MIRAGE 3000
+        2800  MEDIATOR 1200 SX PCI busboard
+        2900  ELBOX 4000Di Zorro III/PCI busboard
+        2a00  MIRAGE 1200
+        2b00  SPIDER II USB 2.0 Hi-Speed card
+        2c00  eFlash 4000/1 MB
+        2d00  eFlash 4000/2 MB
+        2e00  COCOLINO MK-I PS/2 mouse interface
+        2f00  eFlash 1200/1 MB
+        3000  MEDIATOR 1200 LT2 PCI busboard
+        3100  MEDIATOR 1200 LT4 PCI busboard
+        3200  COCOLINO MK-II PS/2 mouse interface
+        3300  COCOLINO MK-III PS/2 mouse interface
+        3400  500/8 MB memory expansion
+        3500  FastATA 1200 MK-III EIDE controller
+        3600  reserved
+        3700  D-BOX 1200
+        3800  DRAGON 1200 PCI/AGP busboard
+        3900  DRAGON 1200 ColdFire MCF5475/266 CPU card
+        3a00  reserved
+        3b00  reserved
+        3c00  MEDIATOR 1200 TX PCI busboard
+        3d00  reserved
+        3e00  FastATA 4000 MK-V EIDE controller
+        4000  FastATA 1200 MK-IV EIDE controller
+        4100  FastATA 1200 MK-IV CF/SATA controller
+        4200  FastATA 1200 ZIV CF/SATA controller
+        4300  FastATA 4000 MK-VI CF/SATA controller
+        9f00  opt. space for MEDIATOR PCI ZIV memory
+        a000  opt. space for MEDIATOR PCI 1200 memory
+        a100  opt. space for MEDIATOR PCI 4000 memory
+        a800  opt. space for MEDIATOR PCI 1200 SX memory
+        b000  opt. space for MEDIATOR PCI 1200 LT2 memory
+        b100  opt. space for MEDIATOR PCI 1200 LT4 memory
+        bc00  opt. space for MEDIATOR PCI 1200 TX memory
+        bf00  opt. space for MEDIATOR PCI 4000 MK-II memory
+0a00  Harms
+        1000  030+ Turbo
+        1300  Turbo-Jet 1230xi
+        d000  3x00 Turbo/RAM
+0a1c  A1K.org Community
+        0100  Protein_1 by botfixer and crasbe
+        0200  4MB 32bit SRAM for 68030TK by Matze
+        0300  68030TK by Matze
+        0400  IDE controller for 68030TK by Matze
 0a50  Micronik
-	0a00  RCA 120 [RAM Expansion]
+        0a00  RCA 120 Memory
+0c0c  Team 4
+        0c00  Kasmin Graphics
+0e3b  E3B
+        1300  DENEB FlashROM Card
+        2000  ZorRAM/256MB Zorro III memory Expansion
+        c800  Prometheus Firestorm
+        f100  ALGOR / ALGOR PRO Zorro II USB Card
+        f200  HIGHWAY Zorro II USB Card
+        f300  DENEB Clockport
 0f0f  Micronik
-	0100  Z3i A1200 [Zorro III Extender and SCSI Host Adapter]
+        0100  Infinitiv Z3 Board
 1000  MegaMicro
-	0300  SCRAM 500 [SCSI Host Adapter]
-	0400  SCRAM 500 [RAM Expansion]
-1028  Ronin/Imtronics
-	3900  Hurricane 2800 [Accelerator and RAM Expansion]
-	5700  Hurricane 2800 [Accelerator and RAM Expansion]
-102f  Ateo Concepts
-	fc00  AteoBus [Expansion Bus Bridge]
-	fe00  Pixel64 [Graphics Card]
-	ff00  Pixel64 RAM [Graphics Card]
-1212  Individual Computers
-	0000  Buddha [IDE Interface]
-	1700  X-Surf [Ethernet Card and IDE Interface]
-	2a00  Catweasel [IDE Interface and Floppy Controller]
+        0300  SCRAM 500 SCSI
+        0400  SCRAM 500 RAM
+1002  ATI
+        4059  RV280 ATI RADEON 9200 Pro secondary
+        4159  RV280 ATI RADEON 9000 Pro
+        4259  RV280 ATI RADEON 9200 Pro secondary
+        4359  RV280 ATI RADEON 9200 Pro secondary
+        435c  RV280/M9+ Mobility Radeon 9200 secondary
+        445d  RV280 ATI RADEON 9200SE secondary
+        6059  RV280 ATI RADEON 9200 Pro
+        6159  RV280 ATI RADEON 9000 Pro secondary
+        615c  RV280/M9+ Mobility Radeon 9200
+        6259  RV280 ATI RADEON 9200 Pro
+        6359  RV280 ATI RADEON 9200 Pro
+        635c  RV280/M9+ Mobility Radeon 9200
+        6459  RV280 ATI RADEON 9200SE Pro
+        664c  RV250/M9 Mobility Radeon 9000
+100e  DigiFeX
+        0a00  Interact Ethernet Board
+1028  Imtronics/Memphis
+        3900  Hurricane 2800 Turbo
+        4000  Kronos II/Next Generation SCSI
+        5700  Hurricane 2800 Turbo
+1033  NEC Corporation
+        e000  USB 2.0 Host Controller
+1035  PROTAR
+        3300  HD-Controller
+        3400  RAM Expansion
+104c  Texas Instruments
+        073d  Permedia 2
+105a  Promise Technology Inc.
+        733d  PDC40775 / SATA 300 TX2plus incl. IDE
+1095  Silicon Image Inc.
+        1231  SiI 3112 [SATALink/SATARaid] SATA Controller
+109e  Brooktree Corporation
+        5003  Bt848A
+        5103  Bt849A
+        6c03  FUSION 879A
+        6e03  Bt878A
+10ec  Realtek Semiconductor Co., Ltd.
+        2980  Realtek 8029 A/B/C/D
+        3981  Realtek 8139 A/B/C/D
+1102  Creative Labs
+        3889  Ectiva EV1938
+1111  Unregistered Developer
+        1100  probably A508/A608 memory expansion
+1212  individual Computers
+        0000  Buddha IDE Controller
+        0500  ISDN Surfer
+        0700  VarIO
+        0a00  Kickflash OS4
+        1700  X-Surf
+        2a00  Buddha IDE / Catweasel
+        4200  Catweasel MK3
+        4500  ACA 630
+        4600  ACA 620
+        6400  X-Surf 100 Z-II/ZIII Ethernet
+        8500  BigRamPlus internal alpha-version
+        e100  ACA 1230-56Mhz
+        e200  ACA 1230-41Mhz
+        e300  ACA 1231-41.66Mhz
+        e500  ACA 1231LC
+        e600  ACA 630-25Mhz
+        e700  ACA 1232
+        e800  ACA 1220
+        e900  ACA 500 Rev.4
+        ea00  ACA 630-30Mhz
+        eb00  ACA 1230-28Mhz
+        ef00  ACA 500 Rev.3 RC1
+        f000  ACA 500 Rev.2 prototype
+        f200  ACA 620 Rev.2
+        f300  Buddha IDE Controller - Rev. 1997
+        f700  Catweasel Z-II S-Class
+        f800  X-Surf 100 B1:contact icomp.de for logic update
+        f900  X-Surf 100 B2:contact icomp.de for logic update
+        fa00  X-Surf 100 Rev.3 Z-II/ZIII Ethernet
+        fe00  Unknown ACA Turboboard - please report
+121a  3Dfx Interactive, Inc.
+        0300  Voodoo Banshee
+        0500  Voodoo 3
+        0700  Voodoo 4
+        0900  Voodoo 5
 1248  Kupke
-	0100  Golem HD 3000 [HD Controller]
-1267  RBM-Computertechnik
-	0100  IOBlix [Multi I/O]
+        0100  OMTI HD Controller
+125d  ESS Technology
+        6919  ES1969 / Solo-1 PCI AudioDrive family
+1267  RBM digitaltechnik
+        0100  IOBlix ZII
+        0200  IOBlix 1200 S
+        0300  IOBlix 1200 P
+1274  Ensoniq
+        0050  ES1370
+        7113  ES1371 / ES1373-A/B
+        8058  CT5880-DEQ/DDQ/DCQ / ES1373-DAQ
+1319  ForteMedia, Inc
+        0010  FM801-AS
+        0108  FM801-AU / Xwave QS3000A
+        0208  FM801-AU / Xwave QS3000A Gameport
 1388  ITH
-	0100  ISDN-Master II [ISDN Interface]
+        0100  ISDN Master II
 1389  VMC
-	0100  ISDN Blaster Z2 [ISDN Interface]
-	0200  HyperCom 4 [Multi I/O]
-	0600  HyperCom 4+ [Multi I/O]
-157c  Information
-	6400  ISDN Engine I [ISDN Interface]
+        0100  ISDN-Blaster Z2
+        0200  HyperCOM 4
+        0300  HyperCOM 3z
+        0f00  ICY I2C
+1392  Ambience Creation Technology
+        0100  Thylacine USB Controller
+1394  Georg Braun
+        0b00  Phoenix Turbo-II
+        0c00  Phoenix Turbo-FE
+        0d00  Turbo IV / GBA1000 SRAM
+        0e00  GBA1000 SDRAM-1
+        0f00  GBA1000 SDRAM-2
+        1500  Phoenix-RAM 4MB
+        1600  CDTV-RAM 4MB
+        1700  Phoenix-RAM 8MB
+        2800  GBA1000-60 SDRAM-1
+        2900  GBA1000-60 SDRAM-2
+        2a00  GBA Mini-Thylacine USB Controller
+1396  Jakub Bednarski
+        0a00  Minimig Sound Card - Z2
+        1000  Minimig USB/Ethernet Card - Z3
+        1400  Minimig RTG Card - Z2
+140c  UAS Interface Ltd.
+        0100  Miracle multi I/O
+        0200  Magic graphics
+157c  Inhouse Information
+        6400  ISDN ENGINE I
+1688  Bio Con
+        8900  BC-1208MA
+1804  HK-Computer (ELSAT)
+        0000  Vector RAM Board
 2017  Vortex
-	0700  Golden Gate 80386SX [ISA Bus Bridge]
-	0800  Golden Gate [RAM Expansion]
-	0900  Golden Gate 80486 [ISA Bus Bridge]
+        0700  Golden Gate 80386
+        0800  Golden Gate RAM
+        0900  Golden Gate 80486
+2034  Spirit Technology
+        0300  InBoard
 2062  Expansion Systems
-	0100  DataFlyer 4000SX [SCSI Host Adapter]
-	0200  DataFlyer 4000SX [RAM Expansion]
+        0100  DataFlyer 500 IDE HD
+        0200  DataFlyer RAM Expansion
 2100  ReadySoft
-	0100  AMax II/IV [Macintosh Emulator]
-2140  Phase 5
-	0100  Blizzard [RAM Expansion]
-	0200  Blizzard [Accelerator]
-	0600  Blizzard 1220-IV [Accelerator]
-	0a00  FastLane Z3 [RAM Expansion]
-	0b00  Blizzard 1230-II/Fastlane Z3/CyberSCSI/CyberStorm060 [Accelerator and/or SCSI Host Adapter]
-	0c00  Blizzard 1220/CyberStorm [Accelerator and SCSI Host Adapter]
-	0d00  Blizzard 1230 [Accelerator]
-	1100  Blizzard 1230-IV/1260 [Accelerator]
-	1800  Blizzard 2060 [Accelerator]
-	1900  CyberStorm Mk II [Flash ROM]
-	2200  CyberVision64 [Graphics Card]
-	3200  CyberVision64-3D Prototype [Graphics Card]
-	4300  CyberVision64-3D [Graphics Card]
-	6400  CyberStorm Mk III [Accelerator and SCSI Host Adapter]
-	6e00  Blizzard 603e+ [Accelerator and SCSI Host Adapter]
-2169  DPS
-	0100  Personal Animation Recorder [Video Card]
-2200  Apollo
-	0000  A620 68020 [Accelerator]
-	0100  A620 68020 [Accelerator]
-2222  Apollo
-	2200  AT-Apollo
-	2300  1230/1240/1260/2030/4040/4060 [Accelerator]
-38a5  Petsoff LP
-	0000  Delfina [Audio Card]
-	0100  Delfina Lite [Audio Card]
-	0200  Delfina Plus [Audio Card]
+        0100  A-Max II/IV Board
+2140  Phase 5 Digital Products
+        0100  Blizzard Memory
+        0200  Blizzard Config Area
+        0600  Blizzard 1220
+        0a00  FastlaneZ3 RAM
+        0b00  FastlaneZ3/CyberSCSI/Blizzard-II
+        0c00  CyberSCSI/Blizzard 1220
+        0d00  Blizzard 1230
+        1100  Blizzard 12x0
+        1800  Blizzard 2060/2040
+        1900  CyberStorm
+        2200  CyberVision 64
+        3200  CyberVision 64/3D Prototype
+        4300  CyberVision 64/3D
+        4400  CyberVision PPC
+        6400  CyberStorm PPC/MK III SCSI
+        6500  GREX PCI busboard / BVision
+        6e00  Blizzard PPC SCSI
+2169  Digital Processing Systems Inc.
+        0100  Personal Animation Recorder AD-3000
+2200  ACT Elektronik
+        0000  A 620 Turbo
+        0100  Transputer Link interface
+2222  ACT Elektronik
+        2200  AT-Board
+        2300  Apollo Accelerator
+2528  Tower Technologies
+        0100  ZetaCom Z2 Multi I/O
+29b4  Electronic Design
+        0100  FrameMachine
+        8800  8MB ZIP-RAM Board
+38a5  PLP Ltd
+        0000  Delfina SoundCard
+        0100  Delfina Lite SoundCard
+        0200  Delfina Plus SoundCard
 3ff7  Uwe Gerlach
-	d400  RAM/ROM [Miscellaneous Expansion Card]
-4231  ACT
-	0100  Prelude [Audio Card]
-4754  MacroSystems Germany
-	0300  Maestro [Audio Card]
-	0400  VLab [Video Card]
-	0500  Maestro Pro [Audio Card]
-	0600  Retina [Graphics Card]
-	0800  MultiEvolution [SCSI Host Adapter]
-	0c00  Toccata [Audio Card]
-	0d00  Toccata Pro [Audio Card]
-	1000  Retina Z3 [Graphics Card]
-	1200  VLab Motion [Video Card]
-	1300  Altais [Graphics Card]
-	fd00  Falcon '040 [Accelerator]
+        d400  RAM/ROM
+4143  Ateo Concepts
+        fc00  isa io space on the AteoBus
+        fd00  isa memory space on the AteoBus
+        fe00  fast io space on the AteoBus
+        ff00  fast memory space on the AteoBus
+4144  ALiENDESiGN
+        0000  RePulse Soundcard
+4231  A.C.T.
+        0100  Prelude SoundCard
+454c  HK-Computer (ELSAT)
+        0000  Vector RAM Board
+        0100  E 1208 RAM Board
+4754  MacroSystems (Germany)
+        0300  Maestro SoundCard
+        0400  VLab Digitizer
+        0500  Maestro Pro SoundCard
+        0600  Retina Z2
+        0800  MultiEvolution
+        0c00  Toccata SoundCard
+        0d00  Toccata Pro SoundCard
+        1000  Retina Z3
+        1200  VLab Motion Digitizer
+        1300  Altais Card
+        1700  DraCoMotion Videoboard
+        fd00  Falcon040 Turbo
+5333  S3 Graphics Ltd.
+        0089  86C775 Trio64V2/DX
+        0189  86C617 Trio 64V2 DX/GX
+        018a  S3 ViRGE DX 86C375
+        0789  86C765 Trio64V+ compatible
+        1088  86C732 Trio 32
+        1388  86C764 Trio 32/64
+        3156  S3 ViRGE 86C325
+5757  Markt & Technik
+        8900  Videotext-Decoder
+6760  Combitec
+        1200  RAM Expansion
 6766  Combitec
-8000  SKI Peripherals
-	0800  MAST Fireball [SCSI Host Adapter]
-	8000  [SCSI Host Adapter and Dual Serial Card]
+        8200  RAM Expansion
+8000  M.A.S.T.
+        0800  Fireball SCSI
+        8000  SCSI + Dual Serial Controller
+9004  Adaptec
+        7861  AIC-7861 / AHA-2940AU Single
+        7871  AHA-2940/2940W Fast/Fast-Wide SCSI
+        7881  AIC-7881U / AHA-2940U/UW/D
 a9ad  Reis-Ware
-	1100  Scan King [Scanner Interface]
+        1100  Scan King
 aa01  Cameron
-	1000  Personal A4 [Scanner Interface]
+        1000  Scanner Interface
 aa11  Reis-Ware
-	1100  Handyscanner [Scanner Interface]
+        1100  Z2 4 bit Scanner
+ad47  Matay
+        0100  Prometheus (rev.E), Zorro III to PCI bridge
 b5a8  Phoenix
-	2100  ST506 [HD Controller]
-	2200  [SCSI Host Adapter]
-	be00  [RAM Expansion]
+        2100  ST 506 Autoboot HD
+        2200  HD-Controller
+        4000  DMX Tx-Mitter
+        be00  RAM Expansion
 c008  Combitec
-	2a00  [HD Controller]
-	2b00  SRAM [RAM Expansion]
+        2a00  OMTI HD Controller

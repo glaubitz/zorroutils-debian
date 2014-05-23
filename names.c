@@ -1,5 +1,5 @@
 /*
- *	$Id: names.c,v 1.3 2000/08/12 12:01:19 geert Exp $
+ *	$Id: names.c,v 1.3 2000-08-12 12:01:19 geert Exp $
  *
  *	Linux Zorro Utilities -- Device ID to Name Translation
  *
