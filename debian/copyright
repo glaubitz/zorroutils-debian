@@ -1,24 +1,35 @@
-This package was debianized by Chris Lawrence <lawrencc@debian.org> on
-Fri, 15 Jan 1999 03:28:14 -0600.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zorroutils
+Source: https://github.com/glaubitz/zorroutils
 
-It was originally downloaded from http://members.chello.be/cr26864/Download/
+Files: *
+Copyright: 1998-2000 Martin Mares <mj@suse.cz>
+           1998-2000 Geert Uytterhoeven <geert@linux-m68k.org>
+License: GPL-2+
 
-Newer versions can be found in the Linux/m68k CVS repository, e.g.:
+Files: contrib/zorro-gen.pl
+Copyright: 2013 Jens Dreger <dreger@physik.fu-berlin.de>
+License: GPL-2+
 
-cvs -d :pserver:anon@cvs.linux-m68k.org:/CVS checkout zorroutils
+Files: debian/*
+Copyright: 1999-2000 Chris Lawrence <lawrencc@debian.org>
+	   2006 Aurélien GÉRÔME <ag@roxor.cx>
+           2014 John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+License: GPL-2+
 
-Upstream Author: Geert Uytterhoeven <geert@linux-m68k.org>
-
-Copyright:
-
-Copyright (C) 1998--2000 Geert Uytterhoeven <geert@linux-m68k.org>
-
-This package is heavily based on the Linux PCI Utilities, which are
-
-Copyright (C) 1998--2000 Martin Mares <mj@suse.cz>
-
-All files in this package can be freely distributed and used according
-to the terms of the GNU General Public License, either version 2 or
-(at your opinion) any newer version. This is the same distribution
-policy as for the Linux kernel itself -- see
-/usr/share/common-licenses/GPL for details.
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
