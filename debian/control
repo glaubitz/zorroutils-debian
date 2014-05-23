@@ -1,7 +1,7 @@
 Source: zorroutils
 Section: admin
 Priority: optional
-Maintainer: Aurélien GÉRÔME <ag@roxor.cx>
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Standards-Version: 3.7.2
 Build-Depends: debhelper (>= 4)
 
