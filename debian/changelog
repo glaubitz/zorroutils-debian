@@ -1,3 +1,32 @@
+zorroutils (0.05-1) unstable; urgency=medium
+
+  * New upstream release.
+    - New upstream maintainer.
+    - Update zorro.ids from BoardsLib generated on 2013-10-08.
+    - Add Perl script to generate zorro.ids from BoardsLib.
+    - Add missing format string when calling fprintf in lszorro.c.
+    - Set CFLAGS using '+=' instead of '=' in Makefile to allow
+      setting additional external CFLAGS during build.
+    - Remove cruft in Makefile, update install paths.
+    - Change install location of lszorro to /usr/bin.
+    - Change install location of zorro.ids to /usr/share/misc.
+  * Adopt package (Closes: #677785).
+  * Set myself as maintainer in debian/control.
+  * Update debhelper version in debian/compat and debian/control to 9.
+  * Add Homepage field in debian/control.
+  * Add Vcs-* fields in debian/control.
+  * Update debian/copyright to format 1.0, update years and authors.
+  * Add debian/zorroutils.manpages and include lszorro.8.
+  * Add debian/zorroutils.install, include lszorro and zorro.ids.
+  * Add debian/zorroutils.docs, include README.
+  * Streamline debian/rules using dh.
+  * Update standards version in debian/control to 3.9.5.
+  * Update Debian source format to 3.0 (quilt).
+  * Clean up debian/changelog.
+  * Add debian/watch file.
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Fri, 23 May 2014 21:21:05 +0200
+
 zorroutils (0.04+20021014-2) unstable; urgency=low
 
   * Adopt the package (Closes: #328650).
