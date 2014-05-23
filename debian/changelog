@@ -1,12 +1,11 @@
 zorroutils (0.04+20021014-2) unstable; urgency=low
 
   * Adopt the package (Closes: #328650).
-  * Update to the latest Standards-Version.
+  * Update to the latest standards version.
   * Force debhelper version to be above or equal to 4.
-  * Remove watch file, because there is not an upstream tarball
-    anymore.
+  * Remove watch file, because there is not an upstream tarball anymore.
   * Checkout upstream CVS with no changes since last Debian revision.
-  * Fix lintian error (Closes: #379295).
+  * Install zorro.ids into /usr/share/zorroutils (Closes: #379295).
 
  -- Aurélien GÉRÔME <ag@roxor.cx>  Sat, 22 Jul 2006 19:02:11 +0200
 
@@ -20,40 +19,40 @@ zorroutils (0.04+20021014-1) unstable; urgency=low
   * debian/changelog: Remove obsolete Emacs local variables.
   * debian/copyright: Update upstream URL and copyright.
   * debian/watch: Add.
-  * Conforms to Standards version 3.6.2.
+  * Update to standard version 3.6.2.
 
  -- Matej Vela <vela@debian.org>  Fri, 30 Sep 2005 00:04:46 +0200
 
 zorroutils (0.03-1) unstable; urgency=low
 
   * New upstream release.
-  * Standards-Version: 3.1.0.0
+  * Update to standards version 3.1.0.0.
 
  -- Chris Lawrence <lawrencc@debian.org>  Sun, 13 Aug 2000 14:08:41 -0500
 
 zorroutils (0.02.19990526-2) unstable; urgency=low
 
-  * Standards-Version: 3.0.1.1
+  * Update to standards version 3.0.1.1.
   * Slightly changed the description since 2.3 is out now.
 
  -- Chris Lawrence <lawrencc@debian.org>  Sun, 12 Sep 1999 06:53:11 -0500
 
 zorroutils (0.02.19990526-1) unstable; urgency=low
 
+  * New upstream CVS snapshot.
   * Synced zorro.ids with CVS repository.
-  * Properly uploaded (now has orig.tar.gz).
+  * Include original upstream tarball in upload.
 
  -- Chris Lawrence <lawrencc@debian.org>  Wed, 23 Jun 1999 17:58:13 -0500
 
 zorroutils (0.02.19981231-1) unstable; urgency=low
 
-  * Updated to latest version in Linux/m68k CVS repository.
-    (Only change is in the description of one card.)
+  * New upstream CVS snapshot.
 
  -- Chris Lawrence <lawrencc@debian.org>  Sat, 16 Jan 1999 14:16:38 -0600
 
 zorroutils (0.02.19981207-1) unstable; urgency=low
 
-  * Initial Release.
+  * Initial release.
 
  -- Chris Lawrence <lawrencc@debian.org>  Fri, 15 Jan 1999 03:28:14 -0600
