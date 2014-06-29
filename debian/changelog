@@ -1,3 +1,9 @@
+zorroutils (0.05-2) unstable; urgency=medium
+
+  * Fix typo in Vcs-Git URL in debian/control.
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Sun, 29 Jun 2014 23:46:20 +0200
+
 zorroutils (0.05-1) unstable; urgency=medium
 
   * New upstream release.
