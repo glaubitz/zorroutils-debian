@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Standards-Version: 3.9.5
 Homepage: https://github.com/glaubitz/zorroutils
-Vcs-Git: git://github.com/glaubitz/zorrutils-debian.git
+Vcs-Git: git://github.com/glaubitz/zorroutils-debian.git
 Vcs-Browser: https://github.com/glaubitz/zorroutils-debian
 Build-Depends: debhelper (>= 9)
 
